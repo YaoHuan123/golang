@@ -36,3 +36,10 @@ var (
 	b = 200
 )
 ```
+
+- golang是静态类型语言
+```
+var r io.Reader
+r = os.Stdin
+// 这里r是io.Reader类型，不是os.Stdin类型
+```
