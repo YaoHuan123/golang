@@ -43,3 +43,8 @@ var r io.Reader
 r = os.Stdin
 // 这里r是io.Reader类型，不是os.Stdin类型
 ```
+
+- 深入理解interface
+```
+interface 中保存的是值，类型对
+```
