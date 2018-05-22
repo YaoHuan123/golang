@@ -48,3 +48,7 @@ r = os.Stdin
 ```
 interface 中保存的是值，类型对
 ```
+
+- 使用github上的包，使用go get命令下载下来，一般是放在GOPATH的src下面的
+
+
